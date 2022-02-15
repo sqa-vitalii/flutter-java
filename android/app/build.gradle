@@ -42,7 +42,7 @@ android {
         applicationId "com.company.viktorjava"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode System.getenv('APPCENTER_BUILD_ID').toInteger()
+        versionCode 5
         versionName flutterVersionName
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
